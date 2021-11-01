@@ -8,6 +8,7 @@
 <ul>
     <th:block th:each="event : ${events}">
         <li th:text="${event.name}"></li>
+        <li th:text="${event.description}"></li>
     </th:block>
 </ul>
 
